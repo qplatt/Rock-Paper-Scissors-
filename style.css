@@ -60,6 +60,7 @@ header > h1 {
 /*Result styling*/
 
 .result {
+    text-align: center;
     font-size : 40px; 
     color: white;
 }
