@@ -73,7 +73,7 @@ header > h1 {
 /*image styling*/
 
 .choices {
-    margin : 50px 0; 
+    margin-top : 50px; 
     text-align : center;
      
 }
@@ -84,4 +84,19 @@ header > h1 {
     margin : 0 20px; 
     padding : 40px;
     display : inline-block; 
+    transition : all 0.3s ease; 
+}
+
+.choice:hover {
+    cursor : pointer;
+    background-color : #f19779; 
+}
+
+#move-message {
+    text-align : center;
+    color: white; 
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top : 20px;
 }
